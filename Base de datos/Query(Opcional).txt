@@ -1,0 +1,91 @@
+-- Crear la base de datos
+CREATE DATABASE TiendaCRUD;
+
+-- Usar la base de datos
+USE TiendaCRUD;
+
+-- Crear tabla Clientes
+CREATE TABLE Clientes (
+    IdCliente INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(100),
+    Email NVARCHAR(100),
+    Password NVARCHAR(100),
+    Apellidos NVARCHAR(100),
+    Dirección NVARCHAR(255)
+);
+
+-- Crear tabla Tienda
+CREATE TABLE Tienda (
+    IdTienda INT IDENTITY(1,1) PRIMARY KEY,
+    Email NVARCHAR(100),
+    Password NVARCHAR(100),
+    Direccion NVARCHAR(255),
+    Sucursal NVARCHAR(100)
+);
+
+-- Crear tabla Articulo
+CREATE TABLE Articulo (
+    IdArticulo INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(100),
+    Descripcion NVARCHAR(255),
+    Precio DECIMAL(10, 2),
+    Imagen VARBINARY(MAX),
+    Stock INT,
+    IdTienda INT,
+    FOREIGN KEY (IdTienda) REFERENCES Tienda(IdTienda)
+);
+
+-- Crear tabla Carrito
+CREATE TABLE Carrito (
+    IdCarrito INT IDENTITY(1,1) PRIMARY KEY,
+    Fecha DATETIME,
+    IdCliente INT,
+    IdArticulo INT,
+    IdTienda INT,
+    FOREIGN KEY (IdCliente) REFERENCES Clientes(IdCliente),
+    FOREIGN KEY (IdArticulo) REFERENCES Articulo(IdArticulo),
+    FOREIGN KEY (IdTienda) REFERENCES Tienda(IdTienda)
+);
+
+-- Crear tabla Compra
+CREATE TABLE Compra (
+    IdCompra INT IDENTITY(1,1) PRIMARY KEY,
+    Fecha DATETIME,
+    Total DECIMAL(10, 2),
+    IdArticulo INT,
+    IdCliente INT,
+    IdTienda INT,
+    FOREIGN KEY (IdArticulo) REFERENCES Articulo(IdArticulo),
+    FOREIGN KEY (IdCliente) REFERENCES Clientes(IdCliente),
+    FOREIGN KEY (IdTienda) REFERENCES Tienda(IdTienda)
+);
+
+-- Agregar datos a la tabla Clientes
+INSERT INTO Clientes (Nombre, Email, Password, Apellidos, Dirección)
+VALUES 
+    ('Juan', 'juan@email.com', 'clave123', 'Pérez', 'Calle 123'),
+    ('María', 'maria@email.com', 'clave456', 'Gómez', 'Avenida 456');
+
+-- Agregar datos a la tabla Tienda
+INSERT INTO Tienda (Email, Password, Direccion, Sucursal)
+VALUES 
+    ('tienda1@email.com', 'tiendaclave1', 'Centro Comercial 1', 'Sucursal A'),
+    ('tienda2@email.com', 'tiendaclave2', 'Centro Comercial 2', 'Sucursal B');
+
+-- Agregar datos a la tabla Articulo
+INSERT INTO Articulo (Nombre, Descripcion, Precio, Imagen, Stock, IdTienda)
+VALUES 
+    ('Laptop', 'Laptop de alta gama', 1200.00, 0x20, 10, 1),
+    ('Teléfono', 'Teléfono inteligente', 500.50, 0x30, 20, 2);
+
+-- Agregar datos a la tabla Carrito
+INSERT INTO Carrito (Fecha, IdCliente, IdArticulo, IdTienda)
+VALUES 
+    (GETDATE(), 1, 1, 1),
+    (GETDATE(), 2, 2, 2);
+
+-- Agregar datos a la tabla Compra
+INSERT INTO Compra (Fecha, Total, IdArticulo, IdCliente, IdTienda)
+VALUES 
+    (GETDATE(), 1200.00, 1, 1, 1),
+    (GETDATE(), 500.50, 2, 2, 2);

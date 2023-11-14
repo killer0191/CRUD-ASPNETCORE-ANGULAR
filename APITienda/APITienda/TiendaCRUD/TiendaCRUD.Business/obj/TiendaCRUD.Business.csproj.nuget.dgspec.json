@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Business\\TiendaCRUD.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Business\\TiendaCRUD.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Business\\TiendaCRUD.Business.csproj",
+        "projectName": "TiendaCRUD.Business",
+        "projectPath": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Business\\TiendaCRUD.Business.csproj",
+        "packagesPath": "C:\\Users\\demon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\demon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Data\\TiendaCRUD.Data.csproj": {
+                "projectPath": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Data\\TiendaCRUD.Data.csproj"
+              },
+              "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Entitys\\TiendaCRUD.Entitys.csproj": {
+                "projectPath": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Entitys\\TiendaCRUD.Entitys.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Data\\TiendaCRUD.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Data\\TiendaCRUD.Data.csproj",
+        "projectName": "TiendaCRUD.Data",
+        "projectPath": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Data\\TiendaCRUD.Data.csproj",
+        "packagesPath": "C:\\Users\\demon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\demon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Entitys\\TiendaCRUD.Entitys.csproj": {
+                "projectPath": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Entitys\\TiendaCRUD.Entitys.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Entitys\\TiendaCRUD.Entitys.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Entitys\\TiendaCRUD.Entitys.csproj",
+        "projectName": "TiendaCRUD.Entitys",
+        "projectPath": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Entitys\\TiendaCRUD.Entitys.csproj",
+        "packagesPath": "C:\\Users\\demon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\demon\\OneDrive\\Documentos\\Empleo\\Examen Posición\\E-commerce\\APITienda\\APITienda\\TiendaCRUD\\TiendaCRUD.Entitys\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\demon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

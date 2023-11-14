@@ -1,0 +1,73 @@
+body {
+  background-color: #dddddd;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #0074e4;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.form-label {
+  color: #001f3f;
+}
+
+.form-control {
+  border-color: #0074e4;
+}
+
+.btn-primary {
+  background-color: #0074e4;
+  border-color: #0074e4;
+}
+
+.btn-link {
+  color: #0074e4;
+}
+
+#registerType {
+  background-color: #ffffff;
+}
+
+#nombre,
+#apellidos,
+#direccion {
+  border-color: #2ecc71;
+}
+
+#sucursal {
+  border-color: #2ecc71;
+}
+
+.btn-primary {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+}
+.custom-link-button {
+  color: #3498db;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.custom-link-button:hover {
+  color: #2980b9;
+}
+.alert {
+  margin-bottom: 0;
+}

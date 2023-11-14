@@ -1,0 +1,109 @@
+<div *ngIf="!isLoggedIn" class="container mt-5 pt-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <ng-container *ngIf="!showRegisterForm; else registerHeader">
+            Iniciar Sesión
+          </ng-container>
+          <ng-template #registerHeader>
+            Registrar
+          </ng-template>
+        </div>
+        <div class="card-body">
+
+          <div *ngIf="loginError" class="alert alert-danger mb-3">
+            {{ loginError }}
+          </div>
+          <form [formGroup]="formularioCliente" *ngIf="!showRegisterForm">
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="email" formControlName="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="password" formControlName="password" required>
+            </div>
+            <button type="button" class="btn btn-primary"
+              (click)="login(formularioCliente.value.email, formularioCliente.value.password)">Iniciar Sesión
+            </button>
+          </form>
+
+
+          <button type="button" class="btn btn-link custom-link-button" (click)="toggleButtonText()">
+            {{ buttonText }}
+          </button>
+
+
+          <div *ngIf="duplicateEmailMessage" class="alert alert-danger" role="alert">
+            {{ duplicateEmailMessage }}
+          </div>
+          <ng-container *ngIf="showRegisterForm">
+            <div class="mb-3">
+              <label for="registerType" class="form-label">Selecciona el tipo de registro</label>
+              <select class="form-select" id="registerType" [(ngModel)]="registerType">
+                <option value="cliente">Cliente</option>
+                <option value="tienda">Tienda</option>
+              </select>
+            </div>
+
+
+            <div *ngIf="registerType === 'cliente'">
+              <form [formGroup]="formularioCliente">
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" formControlName="nombre" required>
+                </div>
+                <div class="mb-3">
+                  <label for="apellidos" class="form-label">Apellidos</label>
+                  <input type="text" class="form-control" id="apellidos" formControlName="apellidos" required>
+                </div>
+                <div class="mb-3">
+                  <label for="direccion" class="form-label">Dirección</label>
+                  <input type="text" class="form-control" id="direccion" formControlName="dirección" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="email" formControlName="email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="password" formControlName="password" required>
+                </div>
+                <button type="button" class="btn btn-primary" (click)="registrar()">Registrar Cliente</button>
+              </form>
+            </div>
+
+
+            <div *ngIf="registerType === 'tienda'">
+              <form [formGroup]="formularioTienda">
+                <div class="mb-3">
+                  <label for="sucursal" class="form-label">Sucursal</label>
+                  <input type="text" class="form-control" id="sucursal" formControlName="sucursal" required>
+                </div>
+                <div class="mb-3">
+                  <label for="direccion" class="form-label">Dirección</label>
+                  <input type="text" class="form-control" id="direccion" formControlName="direccion" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="email" formControlName="email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="password" formControlName="password" required>
+                </div>
+                <button type="button" class="btn btn-primary" (click)="registrar()">Registrar Tienda</button>
+              </form>
+            </div>
+          </ng-container>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<router-outlet *ngIf="isLoggedIn"></router-outlet>

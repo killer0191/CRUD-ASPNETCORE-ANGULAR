@@ -1,0 +1,17 @@
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\bin\Debug\net7.0\TiendaCRUD.Data.deps.json
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\bin\Debug\net7.0\TiendaCRUD.Data.runtimeconfig.json
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\bin\Debug\net7.0\TiendaCRUD.Data.dll
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\bin\Debug\net7.0\TiendaCRUD.Data.pdb
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\obj\Debug\net7.0\TiendaCRUD.Data.csproj.AssemblyReference.cache
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\obj\Debug\net7.0\TiendaCRUD.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\obj\Debug\net7.0\TiendaCRUD.Data.AssemblyInfoInputs.cache
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\obj\Debug\net7.0\TiendaCRUD.Data.AssemblyInfo.cs
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\obj\Debug\net7.0\TiendaCRUD.Data.csproj.CoreCompileInputs.cache
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\obj\Debug\net7.0\TiendaCRUD.Data.dll
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\obj\Debug\net7.0\refint\TiendaCRUD.Data.dll
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\obj\Debug\net7.0\TiendaCRUD.Data.pdb
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\obj\Debug\net7.0\TiendaCRUD.Data.genruntimeconfig.cache
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\obj\Debug\net7.0\ref\TiendaCRUD.Data.dll
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\bin\Debug\net7.0\TiendaCRUD.Entitys.dll
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\bin\Debug\net7.0\TiendaCRUD.Entitys.pdb
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Data\obj\Debug\net7.0\TiendaCRUD.Data.csproj.CopyComplete

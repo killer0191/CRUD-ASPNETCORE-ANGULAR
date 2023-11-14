@@ -1,0 +1,77 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<div class="container">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Bienvenido
+          {{ nombreCliente }}
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/home/{{ idCliente }}">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/carrito/{{ idCliente }}">Carrito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" (click)="navegarHistorial()">Historial de compras</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex">
+          <button class="btn btn-outline-danger" (click)="logout()">Cerrar sesión</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container mt-3">
+    <div class="container mt-3">
+
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Imagen</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr *ngFor="let articulo of listaArticulos" class="articulo-item">
+            <td>
+              <img [src]="articulo.imagen || '../../assets/default-image.png'" alt="Imagen del artículo"
+                class="img-thumbnail" style="max-height: 50px; max-width: 50px;">
+            </td>
+            <td>{{ articulo.nombre }}</td>
+            <td>{{ articulo.descripcion }}</td>
+            <td>${{ articulo.precio }}</td>
+            <td>
+
+              <button class="btn btn-comprar" (click)="comprarArticulo(articulo)">
+                <i class="fas fa-shopping-bag"></i>
+              </button>
+
+              <button class="btn btn-agregar" (click)="agregarAlCarrito(articulo)">
+                <i class="fas fa-cart-plus"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>

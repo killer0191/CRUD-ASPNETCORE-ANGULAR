@@ -1,0 +1,61 @@
+.container {
+  font-family: "Arial", sans-serif;
+}
+
+.navbar-brand {
+  color: #001f3f;
+}
+
+.navbar-nav .nav-link {
+  color: #001f3f;
+}
+
+.btn-outline-danger {
+  border-color: #d9534f;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.table th,
+.table td {
+  border: none;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 15px;
+  text-align: left;
+}
+
+.table tbody tr {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.btn-comprar {
+  background-color: #0074e4;
+  color: #ffffff;
+}
+
+.btn-eliminar {
+  background-color: #d9534f;
+  color: #ffffff;
+}
+
+.btn-comprar i,
+.btn-eliminar i {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler-icon {
+  }
+}

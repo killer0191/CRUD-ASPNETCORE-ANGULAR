@@ -1,0 +1,17 @@
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\bin\Debug\net7.0\TiendaCRUD.Business.deps.json
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\bin\Debug\net7.0\TiendaCRUD.Business.dll
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\bin\Debug\net7.0\TiendaCRUD.Business.pdb
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\obj\Debug\net7.0\TiendaCRUD.Business.csproj.AssemblyReference.cache
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\obj\Debug\net7.0\TiendaCRUD.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\obj\Debug\net7.0\TiendaCRUD.Business.AssemblyInfoInputs.cache
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\obj\Debug\net7.0\TiendaCRUD.Business.AssemblyInfo.cs
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\obj\Debug\net7.0\TiendaCRUD.Business.csproj.CoreCompileInputs.cache
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\obj\Debug\net7.0\TiendaCRUD.Business.dll
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\obj\Debug\net7.0\refint\TiendaCRUD.Business.dll
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\obj\Debug\net7.0\TiendaCRUD.Business.pdb
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\obj\Debug\net7.0\ref\TiendaCRUD.Business.dll
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\bin\Debug\net7.0\TiendaCRUD.Data.dll
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\bin\Debug\net7.0\TiendaCRUD.Entitys.dll
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\bin\Debug\net7.0\TiendaCRUD.Data.pdb
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\bin\Debug\net7.0\TiendaCRUD.Entitys.pdb
+C:\Users\demon\OneDrive\Documentos\Empleo\Examen Posición\E-commerce\APITienda\APITienda\TiendaCRUD\TiendaCRUD.Business\obj\Debug\net7.0\TiendaCRUD.Business.csproj.CopyComplete
